@@ -1,0 +1,49 @@
+/* 🌌 Dark Background */
+.app {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #121212;
+  color: #eaeaea;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+/* 🏷️ Title */
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #00adb5;
+}
+
+/* 🔢 Input Section */
+.input-section {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 180px;
+  font-size: 1rem;
+  border: 1px solid #00adb5;
+  border-radius: 8px;
+  background-color: #1f1f1f;
+  color: #eaeaea;
+  margin-right: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #00adb5;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover
